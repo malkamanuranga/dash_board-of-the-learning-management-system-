@@ -1,0 +1,271 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#FFFFFF] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#F4EFE6] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1C160C]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Skillus</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Alexander</span>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/97f1eb93-729c-4729-b83e-69e7e0f0203d.png");'
+            ></div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#FFFFFF] p-4">
+              <div class="flex flex-col gap-4">
+                <div class="flex gap-3">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/16fce15b-81a5-4dd3-881b-dd6ac54da96f.png");'
+                  ></div>
+                  <div class="flex flex-col">
+                    <h1 class="text-[#1C160C] text-base font-medium leading-normal">Skillus</h1>
+                    <p class="text-[#A18249] text-sm font-normal leading-normal">Need a help?</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-full bg-[#F4EFE6]"><p class="text-[#1C160C] text-sm font-medium leading-normal">Dashboard</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-[#1C160C] text-sm font-medium leading-normal">Courses</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-[#1C160C] text-sm font-medium leading-normal">Users</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-[#1C160C] text-sm font-medium leading-normal">Messages</p></div>
+                  <div class="flex items-center gap-3 px-3 py-2"><p class="text-[#1C160C] text-sm font-medium leading-normal">Settings</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:px-4 @[480px]:py-3">
+                <div
+                  class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-[#FFFFFF] @[480px]:rounded-xl min-h-80"
+                  style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("https://cdn.usegalileo.ai/sdxl10/5d5ec16b-1cdd-4b62-acf4-f6abd105871e.png");'
+                >
+                  <div class="flex p-4"><p class="text-white tracking-light text-[28px] font-bold leading-tight">Skillus LMS Test School</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-x-8 gap-y-6 p-4">
+              <div class="flex flex-col gap-2">
+                <p class="text-[#1C160C] text-4xl font-black leading-tight tracking-[-0.033em]">4.8</p>
+                <div class="flex gap-0.5">
+                  <div class="text-[#019863]" data-icon="Star" data-size="18px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#019863]" data-icon="Star" data-size="18px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#019863]" data-icon="Star" data-size="18px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#019863]" data-icon="Star" data-size="18px" data-weight="fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="text-[#019863]" data-icon="Star" data-size="18px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <p class="text-[#1C160C] text-base font-normal leading-normal">{number} reviews</p>
+              </div>
+              <div class="grid min-w-[200px] max-w-[400px] flex-1 grid-cols-[20px_1fr_40px] items-center gap-y-3">
+                <p class="text-[#1C160C] text-sm font-normal leading-normal">5</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#E9DFCE]"><div class="rounded-full bg-[#019863]" style="width: 0%;"></div></div>
+                <p class="text-[#A18249] text-sm font-normal leading-normal text-right">0%</p>
+                <p class="text-[#1C160C] text-sm font-normal leading-normal">4</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#E9DFCE]"><div class="rounded-full bg-[#019863]" style="width: 0%;"></div></div>
+                <p class="text-[#A18249] text-sm font-normal leading-normal text-right">0%</p>
+                <p class="text-[#1C160C] text-sm font-normal leading-normal">3</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#E9DFCE]"><div class="rounded-full bg-[#019863]" style="width: 0%;"></div></div>
+                <p class="text-[#A18249] text-sm font-normal leading-normal text-right">0%</p>
+                <p class="text-[#1C160C] text-sm font-normal leading-normal">2</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#E9DFCE]"><div class="rounded-full bg-[#019863]" style="width: 0%;"></div></div>
+                <p class="text-[#A18249] text-sm font-normal leading-normal text-right">0%</p>
+                <p class="text-[#1C160C] text-sm font-normal leading-normal">1</p>
+                <div class="flex h-2 flex-1 overflow-hidden rounded-full bg-[#E9DFCE]"><div class="rounded-full bg-[#019863]" style="width: 0%;"></div></div>
+                <p class="text-[#A18249] text-sm font-normal leading-normal text-right">0%</p>
+              </div>
+            </div>
+            <p class="text-[#1C160C] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              You will learn how to develop user-friendly websites and applications and adapt them to different devices. You will understand how to create strong products. Master a
+              sought-after specialty and be able to increase your income.
+            </p>
+            <h2 class="text-[#1C160C] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Courses</h2>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl bg-[#FFFFFF] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#1C160C] text-base font-bold leading-tight">Profession UX/ UI designer</p>
+                    <p class="text-[#A18249] text-sm font-normal leading-normal">$150</p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#F4EFE6] text-[#1C160C] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">See Course</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/826abb8f-3230-472f-aea2-8332f4e42444.png");'
+                ></div>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-start">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-5 bg-[#019863] text-[#FFFFFF] gap-2 pl-5 text-base font-bold leading-normal tracking-[0.015em]"
+              >
+                <div class="text-[#FFFFFF]" data-icon="Plus" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                  </svg>
+                </div>
+                <span class="truncate">Add Course</span>
+              </button>
+            </div>
+            <div class="flex p-4 @container">
+              <div class="flex w-full flex-col gap-4 items-center">
+                <div class="flex gap-4 flex-col items-center">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-xl min-h-32 w-32"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/455cfc8a-89d2-40ce-9692-f52b773b4bc9.png");'
+                  ></div>
+                  <div class="flex flex-col items-center justify-center">
+                    <p class="text-[#1C160C] text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Skillus LMS Test School</p>
+                    <p class="text-[#A18249] text-base font-normal leading-normal text-center">Your School</p>
+                    <p class="text-[#A18249] text-base font-normal leading-normal text-center">You can edit your school information</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center">
+              <div class="flex flex-1 gap-3 flex-wrap px-4 py-3 max-w-[480px] justify-center">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#F4EFE6] text-[#1C160C] text-sm font-bold leading-normal tracking-[0.015em] grow"
+                >
+                  <span class="truncate">Preview</span>
+                </button>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em] grow"
+                >
+                  <span class="truncate">Save</span>
+                </button>
+              </div>
+            </div>
+            <h2 class="text-[#1C160C] tracking-light text-[28px] font-bold leading-tight px-4 text-left pb-3 pt-5">Current Plan</h2>
+            <p class="text-[#A18249] text-sm font-normal leading-normal pb-3 pt-1 px-4">Professional</p>
+            <p class="text-[#A18249] text-sm font-normal leading-normal pb-3 pt-1 px-4">$89.99</p>
+            <p class="text-[#A18249] text-sm font-normal leading-normal pb-3 pt-1 px-4">Next billing date October 12, 2023</p>
+            <div class="flex px-4 py-3">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 flex-1 bg-[#F4EFE6] text-[#1C160C] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Manage</span>
+              </button>
+            </div>
+            <h2 class="text-[#1C160C] tracking-light text-[28px] font-bold leading-tight px-4 text-left pb-3 pt-5">Payment History</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#E9DFCE] bg-[#FFFFFF]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#FFFFFF]">
+                      <th class="table-e4a0f59c-b86f-473e-bd3f-0bf4602214f4-column-120 px-4 py-3 text-left text-[#1C160C] w-[400px] text-sm font-medium leading-normal">Date</th>
+                      <th class="table-e4a0f59c-b86f-473e-bd3f-0bf4602214f4-column-240 px-4 py-3 text-left text-[#1C160C] w-[400px] text-sm font-medium leading-normal">Amount</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#E9DFCE]">
+                      <td class="table-e4a0f59c-b86f-473e-bd3f-0bf4602214f4-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1C160C] text-sm font-normal leading-normal">
+                        09/08/2022
+                      </td>
+                      <td class="table-e4a0f59c-b86f-473e-bd3f-0bf4602214f4-column-240 h-[72px] px-4 py-2 w-[400px] text-[#A18249] text-sm font-normal leading-normal">$169.99</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-e4a0f59c-b86f-473e-bd3f-0bf4602214f4-column-120{display: none;}}
+                @container(max-width:240px){.table-e4a0f59c-b86f-473e-bd3f-0bf4602214f4-column-240{display: none;}}
+              </style>
+            </div>
+            <div class="flex justify-center">
+              <div class="flex flex-1 gap-3 flex-wrap px-4 py-3 max-w-[480px] justify-center">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#F4EFE6] text-[#1C160C] text-sm font-bold leading-normal tracking-[0.015em] grow"
+                >
+                  <span class="truncate">View Payment History</span>
+                </button>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em] grow"
+                >
+                  <span class="truncate">Pay Now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container"><p class="text-[#A18249] text-base font-normal leading-normal">Skillus © 2023</p></footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
